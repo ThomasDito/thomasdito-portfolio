@@ -8,7 +8,7 @@ const Hero = ({ projectScroll }) => {
         <div className="hero px-4 grid grid-cols-1 lg:grid-cols-2 pt-10 items-center xl:gap-0 gap-6">
             <div className='hero-animate animate__animated animate__fadeInUp animate__delay-1s'>
                 <div className='flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl animate__animated animate__backInDown animate__delay-1s'>
-                    <img src={dataImage.TomiImage} alt="Hero Image" className='w-10 rounded-xl' loading='lazy' />
+                    <img src={dataImage.TomiImage} alt="Hero Image" className='w-10 rounded-xl' loading='eager' />
                     <p className='text-lg/loose font-medium opacity-80'>Software Engineer - Web Development</p>
                 </div>
                 <h1 className='text-5xl/tight font-bold mb-6'>Hi, I'm Thomas Dito Rigorastio</h1>
@@ -28,7 +28,7 @@ const Hero = ({ projectScroll }) => {
                 </div>
             </div>
             <div className='heroBanner animate__animated animate__fadeInUp animate__delay-2s'>
-                <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px]' loading='lazy' />
+                <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px]' loading='eager' />
             </div>
         </div>
     )
