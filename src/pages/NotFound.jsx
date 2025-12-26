@@ -20,7 +20,7 @@ const NotFound = () => {
             <button className='block mx-auto text-center bg-indigo-600 p-3 rounded-2xl w-full sm:w-40 cursor-pointer' onClick={() => navigate('/')}>
                 Go Back
             </button>
-    </div>
+        </div>
     )
 }
 

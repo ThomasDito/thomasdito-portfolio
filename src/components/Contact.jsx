@@ -21,7 +21,7 @@ const Contact = ({ linkRef }) => {
                         <input 
                         id="email" type='email' name='email' autoComplete="email" placeholder='Input your email address...' 
                         className='border border-zinc-500 p-2 rounded-md' required />
-                        {/* <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html" /> */}
+                        <input type="hidden" name="_next" value="https://thomasdito-portfolio.vercel.app/greet" />
                     </div>
                     <div className='flex flex-col gap-2'>
                         <label className='font-semibold' htmlFor='message'>Message</label>

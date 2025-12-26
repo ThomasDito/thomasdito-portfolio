@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 import HomePorto from './pages/HomePorto.jsx'
 import PreLoader from './components/PreLoader.jsx'
+import Greet from './pages/Greet.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
           <HomePorto />
         </div>
       } />
+      <Route path='/greet' element={<Greet />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   )

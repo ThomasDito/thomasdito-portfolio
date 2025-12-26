@@ -1,4 +1,4 @@
-import TomiImage from "./assets/tomiCopy.png"
+import TomiImage from "./assets/Tomi.webp"
 
 const Image = {
   TomiImage,
