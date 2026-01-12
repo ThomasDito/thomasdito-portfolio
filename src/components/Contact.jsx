@@ -1,6 +1,6 @@
-const Contact = ({ linkRef }) => {
+const Contact = () => {
     return(
-        <div className='contact mt-32 p-0 sm:p-10 px-4' ref={linkRef}>
+        <div className='contact mt-32 p-0 sm:p-10 px-4'>
             <h1 className='text-4xl mb-2 font-bold text-center' 
             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Contact</h1>
             <p className='max-w-prose mx-auto text-base/loose text-center mb-10 opacity-60' 

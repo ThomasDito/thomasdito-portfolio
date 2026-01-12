@@ -11,7 +11,9 @@ const Hero = ({ projectScroll }) => {
                     <img src={dataImage.TomiImage} alt="Hero Image" className='w-10 rounded-xl' loading='eager' />
                     <p className='text-lg/loose font-medium opacity-80'>Software Engineer - Web Development</p>
                 </div>
-                <h1 className='text-5xl/tight font-bold mb-6'>Hi, I'm Thomas Dito Rigorastio</h1>
+                <h1 className='hero-name text-5xl/tight font-bold mb-6 animate__animated animate__zoomIn animate__delay-2s'>
+                    Hi, I'm Thomas Dito Rigorastio
+                </h1>
                 <h2 className="max-w-prose text-xl sm:text-2xl font-medium text-indigo-400 mb-4">
                     React.js Front-End Developer | Building Responsive Web Interfaces
                 </h2>

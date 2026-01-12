@@ -1,7 +1,9 @@
 .navbar {
     box-sizing: border-box;
+    box-shadow: 0 -8px 30px rgb(120, 118, 248);
+    /* box-shadow: 0 -15px 40px rgb(120, 118, 248); */
     /* box-shadow: 0 0 20px rgb(120, 118, 248); */
-    box-shadow: 0 8px 6px -6px rgb(120, 118, 248);
+    /* box-shadow: 0 8px 6px -6px rgb(120, 118, 248); */
 }
 
 /* .logo h1{

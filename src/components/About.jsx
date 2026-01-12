@@ -2,7 +2,6 @@ import dataImage from '../data'
 import { listTools } from '../data'
 
 const About = () => {
-    const waurl = import.meta.env.VITE_WAURL
     const github = import.meta.env.VITE_GITHUB
     const linkedin = import.meta.env.VITE_LINKEDIN
     const instagram = import.meta.env.VITE_IG

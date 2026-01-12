@@ -1,6 +1,6 @@
+import { useRef } from 'react'
 import './HomePorto.css'
 import 'animate.css'
-import { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
@@ -41,33 +41,35 @@ const HomePorto = () => {
 
     return(
         <>
-            <div className='container mx-auto' ref={homeRef}>
+            <div className='mx-auto' ref={homeRef}>
                 {/* Navbar */}
                 <Navbar 
                 homeScroll={() => goto(homeRef.current)} 
                 aboutScroll={() => goto(aboutRef.current)} 
                 projectScroll={() => goto(projectRef.current)} 
                 contactScroll={() => goto(contactRef.current)} />
-                {/* hero */}
-                <Hero projectScroll={() => goto(projectRef.current)} />
+                <div className='container mx-auto'>
+                    {/* hero */}
+                    <Hero projectScroll={() => goto(projectRef.current)} />
 
-                {/* about */}
-                <div ref={aboutRef}>
-                    <About />
+                    {/* about */}
+                    <div ref={aboutRef} className='scroll-mt-12'>
+                        <About />
+                    </div>
+
+                    {/* Project */}
+                    <div ref={projectRef} className='scroll-mt-12'>
+                        <Projects />
+                    </div>
+
+                    {/* contact */}
+                    <div ref={contactRef} className='scroll-mt-12'>
+                        <Contact />
+                    </div>
+
+                    {/* Footer */}
+                    <Footer homeScroll={() => goto(homeRef.current)} aboutScroll={() => goto(aboutRef.current)} projectScroll={() => goto(projectRef.current)} />
                 </div>
-
-                {/* Project */}
-                <div ref={projectRef}>
-                    <Projects />
-                </div>
-
-                {/* contact */}
-                <div>
-                    <Contact linkRef={contactRef} />
-                </div>
-
-                {/* Footer */}
-                <Footer homeScroll={() => goto(homeRef.current)} aboutScroll={() => goto(aboutRef.current)} projectScroll={() => goto(projectRef.current)} />
             </div>
         </>
     )

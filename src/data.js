@@ -98,8 +98,8 @@ export const listTools = [
   },
 ]
 
-import Proyek1 from "./assets/proyek/proyek1.webp"
-import Proyek2 from "./assets/proyek/proyek2.webp"
+import Proyek1 from "./assets/proyek/MovieList.jpg"
+import Proyek2 from "./assets/proyek/notesWeb.png"
 import Proyek3 from "./assets/proyek/proyek3.webp"
 import Proyek4 from "./assets/proyek/proyek4.webp"
 import Proyek5 from "./assets/proyek/proyek5.webp"
@@ -109,18 +109,20 @@ export const listProject = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
+    nama: "MovieList",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
-    dad: 200,
+    tools: ["Vite", "ReactJS", "TaildwindCSS", "Flowbite", "HeadlessUI", "TMDB"],
+    link: "https://movielist-verse.vercel.app/",
+    dad: 100,
   },
   {
     id: 2,
     gambar: Proyek2,
-    nama: "Company Profile",
+    nama: "Simple Notes Web-App",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
-    dad: 300,
+    tools: ["Vite", "ReactJS", 'CSS'],
+    link: "#",
+    dad: 200,
   },
   {
     id: 3,
@@ -128,7 +130,8 @@ export const listProject = [
     nama: "Web Pernikahan 2.0",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-    dad: 400,
+    link: "#",
+    dad: 300,
   },
   {
     id: 4,
@@ -136,7 +139,8 @@ export const listProject = [
     nama: "Website Course",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-    dad: 500,
+    link: "#",
+    dad: 400,
   },
   {
     id: 5,
@@ -144,7 +148,8 @@ export const listProject = [
     nama: "Web Portfolio",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-    dad: 600,
+    link: "#",
+    dad: 500,
   },
   {
     id: 6,
@@ -152,6 +157,7 @@ export const listProject = [
     nama: "Company Profile 2.0",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
-    dad: 700,
+    link: "#",
+    dad: 600,
   },
 ]
