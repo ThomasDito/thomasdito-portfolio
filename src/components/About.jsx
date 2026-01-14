@@ -12,7 +12,7 @@ const About = () => {
             data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000">
                 <img src={dataImage.TomiImage} alt="Image" className='w-12 rounded-md mb-10 sm:hidden block' loading='lazy' />
                 <p className='text-base/loose mb-10 text-justify'>
-                    Hi, I’m Thomas— a React.js Front-End Developer who enjoys crafting clean, functional, and responsive web interfaces. My core stack is React, JavaScript, HTML, and CSS. I also have a growing interest in data science, especially analysis and machine learning using Python, and I’ve completed Dicoding’s Data Science Bootcamp where I built several projects including an ML capstone with a web-based output. As a fresh graduate, I’m eager to grow, learn, and contribute in a professional software development environment.
+                    Hi, I’m Thomas — a React.js Front-End Developer who enjoys crafting clean, functional, and responsive web interfaces. My core stack includes React, JavaScript, HTML, and CSS, and I’m currently active in building personal projects to strengthen my front-end skills and portfolio, especially in responsive UI development using modern tools and libraries. I also have prior exposure to data science and machine learning with Python through Dicoding’s Data Science Bootcamp. As a fresh graduate, I’m eager to grow, learn, and contribute in a professional software development environment.
                 </p>
                 <div className='flex items-center justify-between'>
                     <img src={dataImage.TomiImage} alt="Image" className='w-12 rounded-md sm:block hidden' loading='lazy' />
