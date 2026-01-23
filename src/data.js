@@ -116,7 +116,7 @@ export const listProject = [
     gambar: Proyek1,
     nama: "MovieList",
     desc: "MovieList is a movie catalog website that provides a curated listing of films from around the world.",
-    tools: ["Vite", "ReactJS", "TaildwindCSS", "Flowbite", "HeadlessUI", "TMDB"],
+    tools: ["Vite", "ReactJS", "TaildwindCSS", "Flowbite", "HeadlessUI", "TMDB API"],
     link: "https://movielist-verse.vercel.app/",
     dad: 100,
   },
