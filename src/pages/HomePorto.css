@@ -1,4 +1,4 @@
-.heroBanner img {
+.heroBanner div {
     /* box-shadow: 0 0 20px rgb(120, 118, 248); */
     /* This property applies a gradient mask to the image */
     mask-image: linear-gradient(to top, black 0%, black 80%, transparent 100%);

@@ -30,7 +30,10 @@ const Hero = ({ projectScroll }) => {
                 </div>
             </div>
             <div className='heroBanner animate__animated animate__fadeInUp animate__delay-2s'>
-                <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px]' loading='eager' />
+                <div className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px] overflow-hidden'>
+                    <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='h-full w-full object-cover transition-all duration-500 ease-in-out hover:scale-110' loading='eager' />
+                </div>
+                {/* <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px]' loading='eager' /> */}
             </div>
         </div>
     )
