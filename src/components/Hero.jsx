@@ -20,7 +20,7 @@ const Hero = ({ projectScroll }) => {
                 <p className='text-base/loose mb-6 opacity-50 text-justify'>
                     I’m a Front-End Developer specializing in React.js, focused on building responsive and user-friendly web interfaces. I enjoy turning ideas into clean UI with smooth UX. Recently, I’ve also been exploring data science and machine learning using Python.
                 </p>
-                <div className='flex items-center sm:gap-4 gap-2'>
+                <div className='flex items-center gap-4'>
                     <a href={resume} target='_blank' rel="noopener noreferrer" className='bg-indigo-600 p-4 rounded-2xl transition-all duration-300 ease-in-out hover:bg-indigo-500'>
                         Download CV <i className="ri-download-2-line ri-lg"></i>
                     </a>
@@ -30,10 +30,10 @@ const Hero = ({ projectScroll }) => {
                 </div>
             </div>
             <div className='heroBanner animate__animated animate__fadeInUp animate__delay-2s'>
-                <div className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px] overflow-hidden'>
+                <div className='w-full sm:w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px] overflow-hidden'>
                     <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='h-full w-full object-cover transition-all duration-500 ease-in-out hover:scale-110' loading='eager' />
                 </div>
-                {/* <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px]' loading='eager' /> */}
+                {/* <img src={dataImage.TomiImage} alt="Thomas Dito Rigorastio" className='w-full sm:w-[500px] mx-auto lg:ml-auto lg:mx-0 rounded-b-[70px]' loading='eager' /> */}
             </div>
         </div>
     )
